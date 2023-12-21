@@ -1,0 +1,32 @@
+.about-footer{
+    box-shadow: 6px 6px 20px #d2d2dd3e, -6px -6px 20px #d2d2dd3e;
+  }
+  .footer-cont{
+    background-color: white;
+    
+  
+    text-align: center;
+   margin-top: 7rem;
+    padding-bottom: 0.4rem;
+  }
+  .footer-cont legend{
+    color: #333;
+    cursor: pointer;
+  }
+  .footer-cont li{
+  list-style: none
+  ;
+  cursor: pointer;
+  font-size: 1rem;
+ 
+  }
+  .footer-cont li a {
+    color: rgb(61, 60, 60);
+    text-decoration: none; 
+  }
+   .footer-text:hover{
+    color:black;
+          text-decoration: underline;
+        
+   
+  }

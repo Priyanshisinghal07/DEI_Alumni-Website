@@ -1,0 +1,125 @@
+/* *{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    color: #182666dd;
+    color: #8d97c2;
+    color: #5e84b9dd;
+  } */
+  body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    color: #182666dd;
+    color: #8d97c2;
+    color: #5e84b9dd;
+    background-color: #daebf85d;
+  }
+  
+  .card img{
+    cursor: pointer;
+  }
+  .about-img{
+    margin-top: 30px;
+    }  
+    
+    .about-intro{
+      margin-top: 5rem;
+    }
+  .intro-box {
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background: #fff;
+    cursor: pointer;
+  }
+  .intro-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 550;
+  }
+  .intro-heading i {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    color: black;
+  }
+  .intro-heading span {
+    color: #6a4c93;
+    font-size: 1.8rem;
+    font-weight: 550;
+  }
+  .intro-box1 {
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background: #fff;
+    cursor: pointer;
+  }
+  .intro-box1 p {
+    color: rgb(61, 60, 60);
+    font-size: 0.9rem;
+  }
+  .intro-box1 h5 {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 505;
+  }
+  .intro-box p {
+    color: rgb(61, 60, 60);
+    font-size: 0.9rem;
+  }
+  .intro-box h5 {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 505;
+  }
+  .card-group img {
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    mix-blend-mode: normal;
+    cursor: pointer;
+  }
+  .card-group img:hover {
+    mix-blend-mode: luminosity;
+  }
+  
+  /* media queries start */
+  @media (max-width: 768px) {
+    .card-group img {
+      width: 10rem;
+      margin-bottom: 0.8rem;
+      display: block;
+      margin: 0 auto;
+    }
+    .card-group .card-body {
+      margin-top: 1rem;
+    }
+  }
+  @media (max-width: 1400px) and (min-width: 768px) {
+    .intro-box {
+      margin-left: 12px;
+    }
+    .intro-box1 {
+      margin-right: 12px;
+    }
+  }
+  @media (max-width: 576px) {
+    .footer-cont li {
+      margin: 0.3rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .intro-heading {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #333;
+      font-weight: 550;
+    }
+    .intro-heading i {
+      font-size: 1.4rem;
+    }
+    .intro-heading span {
+      color: #6a4c93;
+      font-size: 1.2rem;
+      font-weight: 550;
+    }
+  }
+  

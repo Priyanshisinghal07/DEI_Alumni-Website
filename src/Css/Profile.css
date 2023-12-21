@@ -1,0 +1,33 @@
+@media (max-width:575px){
+    .adjust-pic-cont{
+        margin-top: 247px;
+    }
+}
+@media (min-width:576px){
+    .adjust-pic-cont{
+        margin-top: 189px;
+    }
+}
+@media (min-width:1400px){
+    .adjust-pic-cont{
+        margin-top: 150px;
+    }
+}
+
+.activity{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fakecont:hover{
+background-color: rgb(234, 225, 225);
+cursor: pointer;
+}
+
+.update-profile{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 12px;
+}
+.prof-color{
+color: rgb(68, 67, 67);
+}

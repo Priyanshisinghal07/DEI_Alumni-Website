@@ -1,0 +1,42 @@
+.side-cont{
+    background-color:white;
+    
+    
+    color: black;
+}
+
+
+
+    .sticky{
+        position: sticky;
+        top: 160px;
+      }
+      .sidebar-text{
+        margin: 35px;
+    }
+    .marginside{
+        margin-top: 10px;
+        border-radius: 9px;
+ 
+    }
+    .shadow{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(211, 29, 29, 0.19);
+      }
+        
+@media(max-width:768px){
+    .sidebar{
+        display: none;
+    }
+}
+    
+    .sidebar-text a{
+     font-family: ui-monospace;
+     color: black;
+    }
+
+    .container ul li{
+       margin-top: 2px;
+    }
+    .container ul li a:hover{
+     background-color: rgb(239, 215, 215);
+    }

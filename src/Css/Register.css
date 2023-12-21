@@ -1,0 +1,249 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap"); */
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+} */ */
+body {
+    height: 100vh;
+    
+    background-color: #daebf85d;
+  }
+  .register{
+    padding-bottom: 2rem;
+  }
+  .img-box{
+    filter: invert(100%);
+    
+text-align: center;
+
+
+  }
+  .img-box img{
+    width: 10rem;
+    margin-top: 16rem;
+   
+
+  }
+  .heading{
+    font-size: 1.8rem;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+   font-weight: 505;
+   text-align: center;
+   
+  }
+  .para{
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .single-form{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem;
+    background: #fff;
+    margin-top: 1.5rem;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.register-btn{
+  text-align: center;
+}
+.register-btn .button{
+  color: #fff;
+  border: none;
+text-decoration: none;
+  outline: none;
+  font-size: 1.0rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 7px 20px;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  transition: 0.3s ease;
+  font-family: "Nunito", sans-serif;
+}
+.register-btn .button:hover{
+  background: #421cecf5;
+}
+.field-register  {
+  position: relative;
+}
+form .field-register input{
+  
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  background: #e5ecfb;
+  outline: none;
+  padding: 0px 16px 4px 48px;
+}
+form .field-register label{
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+}
+.field-register input::placeholder{
+  color: rgb(51, 51, 51);
+}
+.field-register input:focus{
+  border: 2px solid rgb(115, 3, 167);
+}
+form .field-register i{
+  position: absolute;
+  top: 75%;
+  left: 18px;
+  color: rgb(51, 51, 51);
+  font-size: 17px;
+  pointer-events: none;
+  margin-right: 10rem;
+  transform: translateY(-50%);
+}
+
+.field-register input:focus ~ i {
+  color: rgb(115, 3, 167);
+} 
+.form-control:focus {
+  -webkit-box-shadow: none!important;
+      -moz-box-shadow: none!important;
+      box-shadow: none!important;
+  }
+.register-box{
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.paragraph{
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+.google-btn{
+  text-align: center;
+ margin-top: 1.5rem;
+}
+.google-btn .button{
+  color: #fff;
+ 
+  text-decoration: none;
+    outline: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 70px;
+    background: #ef233c;
+    box-shadow: 0px 5px 10px #e63946;
+  
+  
+    font-family: "Nunito", sans-serif;
+}
+.google-btn .button:hover{
+  background: #f94144;
+}
+.facebook-btn{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.facebook-btn .button{
+  color: #fff;
+ 
+  text-decoration: none;
+    outline: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 62px;
+    background: #1982c4;
+    box-shadow: 0px 5px 10px #0582ca;
+  
+  
+    font-family: "Nunito", sans-serif;
+}
+.facebook-btn .button:hover{
+  background: #00a6fb;
+}
+.twitter-btn{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.twitter-btn .button{
+  color: #fff;
+ 
+  text-decoration: none;
+    outline: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 70px;
+    background: #8ecae6;
+    box-shadow: 0px 5px 10px #a2d2ff;
+  
+  
+    font-family: "Nunito", sans-serif;
+}
+.twitter-btn .button:hover{
+  background: #bde0fe;
+}
+
+@media(max-width:768px){
+  .img-box{
+    display: none;
+  }
+  .heading{
+    font-size: 1.0rem;
+    margin-top: 1.5rem;
+  }
+  .para{
+    font-size: 1.0rem;
+  }
+  .single-form{
+    padding: 1.5rem 1.5rem;
+  }
+  .paragraph{
+    font-size: 1.0rem;
+  }
+  .google-btn .button,
+  .twitter-btn .button
+{
+    padding: 5px 55px;
+  }
+  .facebook-btn .button{
+    padding: 5px 47px;
+  }
+  
+}
+@Media(max-width:992px){
+  .img-box img{
+    width: 7rem;
+    margin-top: 20rem;
+  }
+  .heading{
+    font-size: 1.5rem;
+  }
+  .para{
+    font-size: 1.0rem;
+  }
+
+  .paragraph{
+    font-size: 0.9rem;
+  }
+  .google-btn .button,
+  .twitter-btn .button
+{
+    padding: 5px 40px;
+  }
+  .facebook-btn .button{
+    padding: 5px 32px;
+  }
+}
+.errorMessage{
+  color: red;
+}
+.successMessage{
+  color: green;
+}

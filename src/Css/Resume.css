@@ -1,0 +1,61 @@
+.post-cont{
+    background-color: white;
+    border-radius: 25px;
+}
+.post-margin-cont{
+    margin-top: 162px;
+}
+
+.post-image:hover{
+    opacity: 0.8; /* Reduce opacity when hovering */
+  border: 2px solid #007BFF; /* Add a border when hovering */
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Add a box shadow when hovering */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+    .post a {
+        text-decoration: none;
+        color: black;
+    }
+    .post a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+
+
+
+
+    .post {
+        position: relative;
+        margin-bottom: 20px;
+      }
+      
+      .post img {
+        max-width: 100%;
+        cursor: pointer;
+      }
+      
+      .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      
+      .large-image {
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+      }
+      @media (max-width:599px){
+        .large-image{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+      }
